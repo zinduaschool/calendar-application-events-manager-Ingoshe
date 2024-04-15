@@ -148,17 +148,17 @@ console.log(myJSON);
 
 // Use the Object.keys(), Object.values(), and Object.entries() methods to display the properties and values of the first event object in the array.
 
-console.log(Object.keys(events[0]));
+console.log(Object.keys(events));
 
-console.log(Object.values(events[0]));
+console.log(Object.values(events));
 
-console.log(Object.entries(events[0]));
+console.log(Object.entries(events));
 
 //Use the .forEach() method to iterate over the events array and console.log the title and date of each event.
 
 const copyEvents = []
 events.forEach((event) => {
-  copyEvents.push(events);
+  copyEvents.push(event);
 });  
 console.log(copyEvents);
 
